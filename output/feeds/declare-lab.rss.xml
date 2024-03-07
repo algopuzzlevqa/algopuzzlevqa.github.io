@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>AlgoPuzzleVQA - Declare Lab</title><link>/</link><description>Are Language Models Puzzle Prodigies? Algorithmic Puzzles Unveil Serious Challenges in Multimodal Reasoning</description><lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0800</lastBuildDate><item><title>AlgoPuzzleVQA</title><link>/algopuzzlevqa.html</link><description>&lt;div style="text-align: center;"&gt;
+    &lt;a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 0 10px;"&gt;Paper on ArXiv.org&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;Code on GitHub&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;HuggingFace Dataset&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;About&lt;/h3&gt;
+&lt;p&gt;This paper introduces the novel task of multimodal puzzle solving, framed within the context of visual
+question-answering. We present a new dataset, AlgoPuzzleVQA designed to challenge and evaluate the capabilities of
+multimodal language models in solving algorithmic puzzles that necessitate …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Declare Lab</dc:creator><pubDate>Wed, 06 Mar 2024 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:None,2024-03-06:/algopuzzlevqa.html</guid><category>Home</category></item></channel></rss>

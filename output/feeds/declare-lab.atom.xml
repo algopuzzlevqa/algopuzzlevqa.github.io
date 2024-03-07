@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>AlgoPuzzleVQA - Declare Lab</title><link href="/" rel="alternate"></link><link href="/feeds/declare-lab.atom.xml" rel="self"></link><id>/</id><updated>2024-03-06T00:00:00+08:00</updated><subtitle>Are Language Models Puzzle Prodigies? Algorithmic Puzzles Unveil Serious Challenges in Multimodal Reasoning</subtitle><entry><title>AlgoPuzzleVQA</title><link href="/algopuzzlevqa.html" rel="alternate"></link><published>2024-03-06T00:00:00+08:00</published><updated>2024-03-06T00:00:00+08:00</updated><author><name>Declare Lab</name></author><id>tag:None,2024-03-06:/algopuzzlevqa.html</id><summary type="html">&lt;div style="text-align: center;"&gt;
+    &lt;a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 0 10px;"&gt;Paper on ArXiv.org&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;Code on GitHub&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;HuggingFace Dataset&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;About&lt;/h3&gt;
+&lt;p&gt;This paper introduces the novel task of multimodal puzzle solving, framed within the context of visual
+question-answering. We present a new dataset, AlgoPuzzleVQA designed to challenge and evaluate the capabilities of
+multimodal language models in solving algorithmic puzzles that necessitate …&lt;/p&gt;</summary><content type="html">&lt;div style="text-align: center;"&gt;
+    &lt;a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 0 10px;"&gt;Paper on ArXiv.org&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;Code on GitHub&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;HuggingFace Dataset&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;About&lt;/h3&gt;
+&lt;p&gt;This paper introduces the novel task of multimodal puzzle solving, framed within the context of visual
+question-answering. We present a new dataset, AlgoPuzzleVQA designed to challenge and evaluate the capabilities of
+multimodal language models in solving algorithmic puzzles that necessitate both visual understanding, language
+understanding, and complex algorithmic reasoning. We create the puzzles to encompass a diverse array of mathematical and
+algorithmic topics such as boolean logic, combinatorics, graph theory, optimization, search, etc., aiming to evaluate
+the gap between visual data interpretation and algorithmic problem-solving skills. The dataset is generated
+automatically from code authored by humans. All our puzzles have exact solutions that can be found from the algorithm
+without tedious human calculations. It ensures that our dataset can be scaled up arbitrarily in terms of reasoning
+complexity and dataset size. Our investigation reveals that large language models (LLMs) such as GPT4V and Gemini
+exhibit limited performance in puzzle-solving tasks. We find that their performance is near random in a multi-choice
+question-answering setup for a significant number of puzzles. The findings emphasize the challenges of integrating
+visual, language, and algorithmic knowledge for solving complex reasoning problems.&lt;/p&gt;
+&lt;h3&gt;Puzzle Ontology&lt;/h3&gt;
+&lt;p&gt;Our puzzles encompass a diverse range of visual, mathematical and algorithmic topics. We categorize the visual and
+algorithmic features present in each puzzle in the image below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/categories.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Dataset&lt;/h3&gt;
+&lt;p&gt;Our current version of AlgoPuzzleVQA contains problems with easy to moderate difficulty, many of which can be solved by
+humans by hand without applying the underlying algorithm. Our puzzles encompass a diverse range of visual, mathematical,
+and algorithmic topics. In total, we have 1800 instances from the 18 different puzzles following various feature
+combinations from our ontology. We consider the full dataset as an evaluation-only benchmark.
+Many of these puzzles are popular in various recreational or academic settings. The image below shows examples of
+puzzles from our dataset based on algorithmic features:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/examples.png"&gt;&lt;/p&gt;
+&lt;p&gt;We also show examples of puzzles based on visual features below. We show one instance of a puzzle from each of the four
+visual
+categories. Note that the header categories are not exhaustive as some puzzles may belong to more visual categories than
+the ones shown in the header.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/features.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Example Puzzle&lt;/h3&gt;
+&lt;p&gt;The image below shows an example of the Color Hue puzzle in our dataset:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/color_hue.png"&gt;&lt;/p&gt;
+&lt;p&gt;Question: A 5 * 4 board consists of
+20 different coloured tiles. A random state the board is shown in (A). The ideal state of the board is shown in (B). A
+swap consists of selecting any two tiles in the board and switching their positions. What is the minimum number of swaps
+required to restore the ideal state of the board from (A)? Gold Answer: 4&lt;/p&gt;
+&lt;h3&gt;Evaluation Results&lt;/h3&gt;
+&lt;p&gt;Our main evaluation results are shown below. The Board Tiling puzzle has a random baseline performance of 50%. All other
+puzzles have a random baseline
+performance of 25%. The overall random baseline stands at 26.4%. We notice that the performance in a significant
+number of these puzzles across all the models is close to the random baseline of 50% and 25%. The GPT-4V model in the
+eCoT setup achieves the best score overall with an average accuracy of 31.6%, which is only around 5% better than
+random. The other models perform poorer, with Gemini Pro obtaining a best of 29.5%, Instruct-BLIP obtaining a best of
+29.1% with the 7B model, and LLaVA obtaining 29.1%.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/results.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Citation&lt;/h3&gt;
+&lt;p&gt;If our work inspires your research, please cite us:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;@article&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;ghosal2024algopuzzlevqa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="k"&gt;Are&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;Language&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Models&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Puzzle&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Prodigies&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Algorithmic&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Puzzles&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Unveil&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Serious&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Challenges&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Multimodal&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Reasoning&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Ghosal&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Deepanway&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Han&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Vernon&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Toh&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Yan&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Chia&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Yew&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Ken&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Poria&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Soujanya&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;journal&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="n"&gt;arXiv&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;preprint&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;arXiv&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mf"&gt;2403.03864&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nf"&gt;year&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;2024&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Contact&lt;/h3&gt;
+&lt;p&gt;For any questions, please open an issue on &lt;a href="https://github.com/declare-lab/puzzle-reasoning/issues"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;a href="https://declare-lab.github.io"&gt;
+    &lt;img src="https://declare-lab.github.io/assets/images/logos/square-light.png" alt="Declare Lab Logo" style="width: 200px; height: auto;"&gt;
+&lt;/a&gt;&lt;/p&gt;</content><category term="Home"></category></entry></feed>
