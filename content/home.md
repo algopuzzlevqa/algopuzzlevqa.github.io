@@ -78,7 +78,7 @@ If our work inspires your research, please cite us:
 ```
 @article{ghosal2024algopuzzlevqa,
   title={Are Language Models Puzzle Prodigies? Algorithmic Puzzles Unveil Serious Challenges in Multimodal Reasoning},
-  author={Ghosal, Deepanway and Han, Vernon Toh Yan and Chia, Yew Ken and and Poria, Soujanya},
+  author={Ghosal, Deepanway and Han, Vernon Toh Yan and Chia, Yew Ken and Poria, Soujanya},
   journal={arXiv preprint arXiv:2403.03864},
   year={2024}
 }
