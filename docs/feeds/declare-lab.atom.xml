@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>AlgoPuzzleVQA - Declare Lab</title><link href="/" rel="alternate"></link><link href="/feeds/declare-lab.atom.xml" rel="self"></link><id>/</id><updated>2024-03-06T00:00:00+08:00</updated><subtitle>Are Language Models Puzzle Prodigies? Algorithmic Puzzles Unveil Serious Challenges in Multimodal Reasoning</subtitle><entry><title>AlgoPuzzleVQA</title><link href="/algopuzzlevqa.html" rel="alternate"></link><published>2024-03-06T00:00:00+08:00</published><updated>2024-03-06T00:00:00+08:00</updated><author><name>Declare Lab</name></author><id>tag:None,2024-03-06:/algopuzzlevqa.html</id><summary type="html">&lt;div style="text-align: center;"&gt;
-    &lt;a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 0 10px;"&gt;Paper on ArXiv.org&lt;/a&gt;
-    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;Code on GitHub&lt;/a&gt;
-    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;HuggingFace Dataset&lt;/a&gt;
+    &lt;a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 10px;"&gt;Paper&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 10px;"&gt;Code&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 10px;"&gt;Dataset&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;About&lt;/h3&gt;
 &lt;p&gt;This paper introduces the novel task of multimodal puzzle solving, framed within the context of visual
 question-answering. We present a new dataset, AlgoPuzzleVQA designed to challenge and evaluate the capabilities of
-multimodal language models in solving algorithmic puzzles that necessitate …&lt;/p&gt;</summary><content type="html">&lt;div style="text-align: center;"&gt;
-    &lt;a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 0 10px;"&gt;Paper on ArXiv.org&lt;/a&gt;
-    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;Code on GitHub&lt;/a&gt;
-    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;"&gt;HuggingFace Dataset&lt;/a&gt;
+multimodal language models in solving algorithmic puzzles that necessitate both visual understanding, language
+understanding, and …&lt;/p&gt;</summary><content type="html">&lt;div style="text-align: center;"&gt;
+    &lt;a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 10px;"&gt;Paper&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 10px;"&gt;Code&lt;/a&gt;
+    &lt;a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 10px;"&gt;Dataset&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;About&lt;/h3&gt;

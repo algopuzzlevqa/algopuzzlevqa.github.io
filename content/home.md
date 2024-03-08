@@ -3,9 +3,9 @@ Date: 2024-03-06
 Category: Home
 
 <div style="text-align: center;">
-    <a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 0 10px;">Paper on ArXiv.org</a>
-    <a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;">Code on GitHub</a>
-    <a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 0 10px;">HuggingFace Dataset</a>
+    <a href="https://arxiv.org/abs/2403.03864" class="button" style="margin: 10px;">Paper</a>
+    <a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 10px;">Code</a>
+    <a href="https://github.com/declare-lab/puzzle-reasoning" class="button" style="margin: 10px;">Dataset</a>
 </div>
 
 ### About
